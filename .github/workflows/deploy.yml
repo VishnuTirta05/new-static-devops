@@ -25,7 +25,7 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build Docker image
-        run: docker build -t ghcr.io/YOUR_USERNAME/static-devops-site:latest .
+        run: docker build -t ghcr.io/vishnutirta05/static-devops-site:latest .
 
       - name: Push Docker image
-        run: docker push ghcr.io/YOUR_USERNAME/static-devops-site:latest
+        run: docker push ghcr.io/vishnutirta05/static-devops-site:latest
